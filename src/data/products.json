@@ -161,16 +161,16 @@
   },
   {
     "id": 21,
-    "name": "Running Shoes",
-    "image": "/images/sports-and-outdoor/Running Shoes.jpg",
+    "name": "Comfortable Running Shoes",
+    "image": "/images/sports-and-outdoor/Comfortable Running Shoes.jpg",
     "price": 89.99,
     "category": "Sports and Outdoor",
     "description": "Perfect for running and outdoor activities."
   },
   {
     "id": 22,
-    "name": "Camping Bag",
-    "image": "/images/sports-and-outdoor/Camping Bag.jpg",
+    "name": "Durable Pilates Ball",
+    "image": "/images/sports-and-outdoor/Durable Pilates Ball.jpg",
     "price": 75,
     "category": "Sports and Outdoor",
     "description": "Durable and waterproof camping bag."

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styles from './styles/CategoryDropdown.module.css'; // CSS modülünü içe aktar
 
 const CategoryDropdown = ({ categories, onSelectCategory }) => {
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -10,13 +11,13 @@ const CategoryDropdown = ({ categories, onSelectCategory }) => {
   };
 
   return (
-    <div className="mb-4">
+    <div className={styles['select-container']}>
       <select
-        className="form-select"
+        className={styles['form-select']}
         value={selectedCategory}
         onChange={handleCategoryChange}
       >
-        <option value="">Select a category</option>
+        <option value="">All Categories</option>
         {categories.map((category) => (
           <option key={category} value={category}>
             {category}

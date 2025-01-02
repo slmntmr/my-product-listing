@@ -1,0 +1,36 @@
+/* Dropdown'un dış görünümü */
+.select-container {
+  display: flex;
+  justify-content: center; /* Ortalar */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Dropdown menüsü */
+.form-select {
+  width: 500px; /* Genişlik */
+  padding: 10px; /* İç boşluk */
+  font-size: 16px; /* Yazı boyutu */
+  border: 1px solid #ccc; /* Çerçeve */
+  border-radius: 8px; /* Yuvarlatılmış köşeler */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: box-shadow 0.3s ease-in-out; /* Hover animasyonu */
+}
+
+/* Hover efekti */
+.form-select:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Daha belirgin gölge */
+  border-color: #007bff; /* Çerçeve rengini mavi yap */
+}
+
+/* Dropdown içeriği */
+.form-select option {
+  font-size: 14px; /* Yazı boyutu */
+  padding: 8px; /* İç boşluk */
+}
+
+/* Aktif seçili olan değer */
+.form-select:focus {
+  outline: none; /* Varsayılan mavi kenarlığı kaldır */
+  border-color: #007bff; /* Çerçeve rengini değiştir */
+  box-shadow: 0 0 4px #007bff; /* Seçim sırasında mavi bir gölge */
+}

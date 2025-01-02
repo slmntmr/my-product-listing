@@ -1,42 +1,51 @@
+/* Ana kart stili */
 .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  max-width: 300px; /* Kart genişliği sınırlandı */
-  margin: auto; /* Kartlar ortalanır */
+  width: 500px; /* Kartın sabit genişliği */
+  height: 400px; /* Kartın sabit yüksekliği */
+  border: 1px solid #ddd; /* Hafif çerçeve */
+  border-radius: 8px; /* Köşeleri yuvarla */
+  overflow: hidden; /* Taşan içeriği gizle */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Hover animasyonu */
+  margin: auto; /* Ortalanması */
+  margin-bottom: 30px; /* Dikeyde diğer kartlarla aralık */
 }
 
+/* Hover efekti */
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Kartı büyüt */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölgeyi artır */
 }
 
+/* Görselin düzenlenmesi */
 .card-img-top {
-  width: 100%; /* Görsel kartın genişliğini kaplar */
-  height: 150px; /* Sabit yükseklik */
-  object-fit: contain; /* Görselin tamamı görünür */
-  background-color: #f9f9f9; /* Arka plan, boş alanlar için */
+  width: 100%; /* Kartın genişliğini tamamen kapla */
+  height: 150px; /* Sabit görsel yüksekliği */
+  object-fit: contain; /* Görselin tamamını göster */
+  background-color: #f9f9f9; /* Boş alanlar için arka plan */
 }
 
+/* Kartın içeriği */
 .card-body {
-  padding: 12px;
-  text-align: center;
+  padding: 12px; /* İçerik çevresine boşluk ekle */
+  text-align: center; /* Ortala */
 }
 
+/* Başlık */
 .card-title {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 8px;
+  font-size: 1rem; /* Metin boyutu */
+  font-weight: bold; /* Kalın yazı */
+  margin-bottom: 8px; /* Alt boşluk */
 }
 
+/* Açıklama metni */
 .card-text {
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 0.85rem; /* Küçük metin boyutu */
+  color: #0e0101f2; /* Açık gri renk */
 }
 
+/* Vurgulanmış metin (örneğin fiyat) */
 .card-text.fw-bold {
-  font-size: 0.9rem;
-  color: #333;
+  font-size: 0.9rem; /* Hafif büyük metin boyutu */
+  color: #333; /* Daha koyu metin rengi */
 }

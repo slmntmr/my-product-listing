@@ -1,0 +1,22 @@
+.header-container {
+  display: flex; /* Esnek kutu düzenini etkinleştir */
+  flex-direction: column; /* Elemanları dikey hizala */
+  justify-content: center; /* Dikeyde ortala */
+  align-items: center; /* Yatayda ortala */
+  background-color: #007bff; /* Arka plan rengi (mavi) */
+  color: #fff; /* Yazı rengini beyaz yap */
+  padding: 20px; /* İç kenarlara boşluk ekle */
+  text-align: center; /* Metinleri ortala */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.header-container h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header-container p {
+  font-size: 1rem;
+  margin-top: 10px;
+  max-width: 600px;
+}
