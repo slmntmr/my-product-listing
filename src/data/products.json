@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Tomato",
+    "image": "/images/fruits-and-vegetables/Fresh Tomato.jpg",
+    "price": 1.5,
+    "category": "Fruits and Vegetables",
+    "description": "Fresh, organic tomatoes picked from the farm."
+  },
+  {
+    "id": 2,
+    "name": "Fresh Cucumber",
+    "image": "/images/fruits-and-vegetables/Fresh Cucumber.jpg",
+    "price": 1.2,
+    "category": "Fruits and Vegetables",
+    "description": "Fresh and crunchy cucumbers."
+  },
+  {
+    "id": 3,
+    "name": "Red Apple",
+    "image": "/images/fruits-and-vegetables/Red Apple.jpg",
+    "price": 2.0,
+    "category": "Fruits and Vegetables",
+    "description": "Crisp and juicy red apples."
+  },
+  {
+    "id": 4,
+    "name": "Tropical Banana",
+    "image": "/images/fruits-and-vegetables/Tropical Banana.jpg",
+    "price": 1.8,
+    "category": "Fruits and Vegetables",
+    "description": "Sweet and delicious bananas from tropical regions."
+  },
+  {
+    "id": 5,
+    "name": "Organic Potato",
+    "image": "/images/fruits-and-vegetables/Organic Potato.jpg",
+    "price": 0.9,
+    "category": "Fruits and Vegetables",
+    "description": "Freshly harvested organic potatoes."
+  },
+  {
+    "id": 6,
+    "name": "Smartphone",
+    "image": "/images/technology/Smartphone.jpg",
+    "price": 599,
+    "category": "Technology",
+    "description": "Latest model, high-performance smartphone."
+  },
+  {
+    "id": 7,
+    "name": "Laptop",
+    "image": "/images/technology/Laptop.jpg",
+    "price": 1200,
+    "category": "Technology",
+    "description": "High-performance laptop for work and play."
+  },
+  {
+    "id": 8,
+    "name": "Wireless Headphones",
+    "image": "/images/technology/Wireless Headphones.jpg",
+    "price": 150,
+    "category": "Technology",
+    "description": "Noise-cancelling wireless headphones."
+  },
+  {
+    "id": 9,
+    "name": "LED TV",
+    "image": "/images/technology/LED TV.jpg",
+    "price": 800,
+    "category": "Technology",
+    "description": "Large-screen LED TV with 4K resolution."
+  },
+  {
+    "id": 10,
+    "name": "Digital Camera",
+    "image": "/images/technology/Digital Camera.jpg",
+    "price": 400,
+    "category": "Technology",
+    "description": "Compact digital camera with high resolution."
+  },
+  {
+    "id": 11,
+    "name": "Moisturizing Shampoo",
+    "image": "/images/beauty/Moisturizing Shampoo.jpg",
+    "price": 12.99,
+    "category": "Beauty",
+    "description": "Keep your hair smooth and hydrated."
+  },
+  {
+    "id": 12,
+    "name": "Matte Lipstick",
+    "image": "/images/beauty/Matte Lipstick.jpg",
+    "price": 20,
+    "category": "Beauty",
+    "description": "Long-lasting matte lipstick in various shades."
+  },
+  {
+    "id": 13,
+    "name": "Day Cream",
+    "image": "/images/beauty/Day Cream.jpg",
+    "price": 25,
+    "category": "Beauty",
+    "description": "Hydrating day cream for all skin types."
+  },
+  {
+    "id": 14,
+    "name": "Floral Perfume",
+    "image": "/images/beauty/Floral Perfume.jpg",
+    "price": 50,
+    "category": "Beauty",
+    "description": "Elegant floral perfume with a long-lasting scent."
+  },
+  {
+    "id": 15,
+    "name": "Makeup Palette",
+    "image": "/images/beauty/Makeup Palette.jpg",
+    "price": 30,
+    "category": "Beauty",
+    "description": "Versatile makeup palette with various shades."
+  },
+  {
+    "id": 16,
+    "name": "Double Door Refrigerator",
+    "image": "/images/home-appliances/Double Door Refrigerator.jpg",
+    "price": 799,
+    "category": "Home Appliances",
+    "description": "Spacious and energy-efficient refrigerator."
+  },
+  {
+    "id": 17,
+    "name": "Microwave Oven",
+    "image": "/images/home-appliances/Microwave Oven.jpg",
+    "price": 120,
+    "category": "Home Appliances",
+    "description": "Compact microwave oven with multiple settings."
+  },
+  {
+    "id": 18,
+    "name": "Vacuum Cleaner",
+    "image": "/images/home-appliances/Vacuum Cleaner.jpg",
+    "price": 250,
+    "category": "Home Appliances",
+    "description": "Powerful vacuum cleaner for all surfaces."
+  },
+  {
+    "id": 19,
+    "name": "Steam Iron",
+    "image": "/images/home-appliances/Steam Iron.jpg",
+    "price": 50,
+    "category": "Home Appliances",
+    "description": "Efficient steam iron for wrinkle-free clothes."
+  },
+  {
+    "id": 20,
+    "name": "Coffee Machine",
+    "image": "/images/home-appliances/Coffee Machine.jpg",
+    "price": 200,
+    "category": "Home Appliances",
+    "description": "Automatic coffee machine with multiple brew settings."
+  },
+  {
+    "id": 21,
+    "name": "Running Shoes",
+    "image": "/images/sports-and-outdoor/Running Shoes.jpg",
+    "price": 89.99,
+    "category": "Sports and Outdoor",
+    "description": "Perfect for running and outdoor activities."
+  },
+  {
+    "id": 22,
+    "name": "Camping Bag",
+    "image": "/images/sports-and-outdoor/Camping Bag.jpg",
+    "price": 75,
+    "category": "Sports and Outdoor",
+    "description": "Durable and waterproof camping bag."
+  },
+  {
+    "id": 23,
+    "name": "Insulated Water Bottle",
+    "image": "/images/sports-and-outdoor/Insulated Water Bottle.jpg",
+    "price": 20,
+    "category": "Sports and Outdoor",
+    "description": "Keeps drinks hot or cold for hours."
+  },
+  {
+    "id": 24,
+    "name": "Electric Treadmill",
+    "image": "/images/sports-and-outdoor/Electric Treadmill.jpg",
+    "price": 1200,
+    "category": "Sports and Outdoor",
+    "description": "High-performance treadmill for home workouts."
+  },
+  {
+    "id": 25,
+    "name": "Durable Pilates Ball",
+    "image": "/images/sports-and-outdoor/Durable Pilates Ball.jpg",
+    "price": 30,
+    "category": "Sports and Outdoor",
+    "description": "Ideal for pilates and fitness exercises."
+  }
+]
